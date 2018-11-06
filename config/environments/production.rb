@@ -49,6 +49,8 @@ Rails.application.configure do
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
 
+  config.secret_key_base = "f28180165e6071edceadd6442ed58a87aa0faa783f94de230087d1a6f4e013a163276f83f5956381a33f6972dd4179a3ae752b697c61f2d035aff3978e24bea3"
+
   # Use the lowest log level to ensure availability of diagnostic information
   # when problems arise.
   config.log_level = :debug
